@@ -1,13 +1,17 @@
-<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="200" height="200" src="https://anncwb.github.io/anncwb/images/logo.png"> </a> <br> <br>
+<div align="center"> <a href="https://git.yuaiweiwu.com/fe-team/templates/scrm-antd-vue-template"> <img alt="MSTT Logo" width="200" height="200" src="https://anncwb.github.io/anncwb/images/logo.png"> </a> <br> <br>
 
 [![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
 
-<h1>Vue vben admin</h1>
+<h1>scrm-antd-vue-template</h1>
 </div>
 
 ## 简介
-
-精简 Vue Vben Admin。
+scrm-antd-vue-template 中后台模版
+> scrm-antd-vue-template 是一个基于 Vue3.0、Vite、 Ant-Design-Vue、TypeScript 的后台解决方案，目标是为开发中大型项目提供开箱即用的解决方案。包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能。
+> 1. 技术栈 `Vue3.0` + `Vite` +  `Ant-Design-Vue` + `TypeScript`
+> 2. 模版源自精简 [vue-vben-admin-thin](https://github.com/vbenjs/vben-admin-thin-next)。
+> 3. [文档](https://jeesite.com/front/vben-admin/docs/guide/introduction.html) 开发时可查阅
+> 4. [在线预览](https://vvbin.cn/next/) 开发前可先查阅有无相似的功能和实现，若有可借鉴搬运
 
 ## 特性
 
@@ -42,16 +46,15 @@
 - 获取项目代码
 
 ```bash
-git clone https://github.com/anncwb/vue-vben-admin.git
+git clone http://git.yuaiweiwu.com/fe-team/templates/scrm-antd-vue-template.git
 ```
 
 - 安装依赖
 
 ```bash
-cd vue-vben-admin
-git checkout thin
+cd scrm-antd-vue-template
+git checkout main
 pnpm install
-
 ```
 
 - 运行
@@ -66,27 +69,7 @@ pnpm serve
 pnpm build
 ```
 
-## Git 贡献提交规范
-
-- 参考 [vue](https://github.com/vuejs/vue/blob/dev/.github/COMMIT_CONVENTION.md) 规范 ([Angular](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-angular))
-
-  - `feat` 增加新功能
-  - `fix` 修复问题/BUG
-  - `style` 代码风格相关无影响运行结果的
-  - `perf` 优化/性能提升
-  - `refactor` 重构
-  - `revert` 撤销修改
-  - `test` 测试相关
-  - `docs` 文档/注释
-  - `chore` 依赖更新/脚手架配置修改等
-  - `workflow` 工作流改进
-  - `ci` 持续集成
-  - `types` 类型定义文件更改
-  - `wip` 开发中
-
 ## 相关仓库
-
-如果这些插件对你有帮助，可以给一个 star 支持下
 
 - [vite-plugin-mock](https://github.com/anncwb/vite-plugin-mock) - 用于本地及开发环境数据 mock
 - [vite-plugin-html](https://github.com/anncwb/vite-plugin-html) - 用于 html 模版转换及压缩
@@ -98,4 +81,4 @@ pnpm build
 
 ## License
 
-[MIT © Vben-2020](./LICENSE)
+private
